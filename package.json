@@ -1,6 +1,6 @@
 {
   "name": "react-native-gradients",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "description": "React Native gradient library.",
   "keywords": [
     "react-component",
@@ -24,9 +24,6 @@
     "prop-types": "^15.5.7"
   },
   "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.5.1",
-    "react-native": "^0.57.0",
     "react-native-svg": "^6.5.2"
   },
   "devDependencies": {
