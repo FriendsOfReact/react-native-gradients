@@ -35,7 +35,7 @@ class LinearGradient extends Component {
   }
 }
 
-Gradient.propTypes = {
+LinearGradient.propTypes = {
   degree: PropTypes.number,
   colorList: PropTypes.array
 }
