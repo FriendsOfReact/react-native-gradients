@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import Svg, { Defs, LinearGradient, Rect, Stop } from 'react-native-svg'
+import Svg, { Defs, LinearGradient as SVGLinearGradient, Rect, Stop } from 'react-native-svg'
 import { getPercentageObject } from './utils'
 
 class LinearGradient extends Component {
@@ -12,7 +12,7 @@ class LinearGradient extends Component {
     return (
       <Svg height="100%" width="100%">
         <Defs>
-          <LinearGradient
+          <SVGLinearGradient
             id="grad"
             x1={`${degreeObj.x1}%`}
             y1={`${degreeObj.y1}%`}
@@ -21,7 +21,7 @@ class LinearGradient extends Component {
           >
             {colorList.map(value => <Stop offset={value.offset} stopColor={value.color}
                                           stopOpacity={value.opacity}/>)}
-          </LinearGradient>
+          </SVGLinearGradient>
         </Defs>
         <Rect
           x="0"
