@@ -1,2 +1,2 @@
-export {default as getPercentageFromDegree} from './getPercentageFromDegree'
-export {default as getPercentageObject} from './getPercentageObject'
+export {default as getPercentageFromAngle} from './getPercentageFromAngle'
+export {default as getAnglePercentageObject} from './getAnglePercentageObject'

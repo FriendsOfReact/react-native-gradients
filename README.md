@@ -32,5 +32,5 @@ const colorList = [
 ```
 
 ```
-<LinearGradient colorList={colorList} degree={90}/>
+<LinearGradient colorList={colorList} angle={90}/>
 ```
