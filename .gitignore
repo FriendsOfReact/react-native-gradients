@@ -1,6 +1,6 @@
 
 # Created by https://www.gitignore.io/api/reactnative,webstorm+all,visualstudiocode
-
+.sonar_lock
 ### ReactNative ###
 # React Native Stack Base
 
