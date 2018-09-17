@@ -1,7 +1,7 @@
 {
   "name": "react-native-gradients",
-  "version": "1.0.1",
-  "description": "React Native gradient library.",
+  "version": "1.0.2",
+  "description": "A simple gradient library for React Native.",
   "keywords": [
     "react-component",
     "react-native",
