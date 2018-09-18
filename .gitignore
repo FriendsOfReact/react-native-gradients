@@ -1,6 +1,7 @@
 
 # Created by https://www.gitignore.io/api/reactnative,webstorm+all,visualstudiocode
-.sonar_lock
+.scannerwork
+sonar-project.properties
 ### ReactNative ###
 # React Native Stack Base
 
