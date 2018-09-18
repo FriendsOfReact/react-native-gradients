@@ -1,6 +1,7 @@
 # React Native Gradients
 ![React Native Gradients Demo 1](https://media.giphy.com/media/2aGD6js89xV3tGAIrd/giphy.gif) ![React Native Gradients Demo 2](https://media.giphy.com/media/xUJYCCeNdDATlcSDNo/giphy.gif) ![React Native Gradients Demo 3](https://media.giphy.com/media/1X5Z1goLOMY7cMUEuM/giphy.gif)
 
+
 ## Installation
 First of all, install React Native Gradients using following commands.
 
@@ -47,3 +48,5 @@ const colorList = [
 ```
 <RadialGradient x="50%" y="50%" rx="50%" ry="50%" colorList={colorList}/>
 ```
+
+![SonarCloud](https://sonarcloud.io/api/project_badges/quality_gate?project=react-native-gradients)
