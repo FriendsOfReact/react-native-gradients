@@ -49,4 +49,4 @@ const colorList = [
 <RadialGradient x="50%" y="50%" rx="50%" ry="50%" colorList={colorList}/>
 ```
 
-![SonarCloud](https://sonarcloud.io/api/project_badges/quality_gate?project=react-native-gradients)
+[![SonarCloud](https://sonarcloud.io/api/project_badges/quality_gate?project=react-native-gradients)](https://sonarcloud.io/dashboard?id=react-native-gradients)
