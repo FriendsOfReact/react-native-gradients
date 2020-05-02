@@ -6,7 +6,7 @@ import { getAnglePercentageObject } from './utils'
 class LinearGradient extends Component {
 
   render () {
-    const {angle, colorList} = this.props
+    const { angle, colorList } = this.props
     const angleObj = getAnglePercentageObject(angle)
 
     return (
@@ -19,8 +19,11 @@ class LinearGradient extends Component {
             x2={`${angleObj.x2}%`}
             y2={`${angleObj.y2}%`}
           >
-            {colorList.map(value => <Stop offset={value.offset} stopColor={value.color}
-                                          stopOpacity={value.opacity}/>)}
+            {colorList.map((value, index) => <Stop
+              key={`LinerGradientItem_${index}`}
+              offset={value.offset}
+              stopColor={value.color}
+              stopOpacity={value.opacity}/>)}
           </SVGLinearGradient>
         </Defs>
         <Rect

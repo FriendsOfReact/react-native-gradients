@@ -5,7 +5,7 @@ import Svg, { Defs, RadialGradient as SVGRadialGradient, Rect, Stop } from 'reac
 class RadialGradient extends Component {
 
   render () {
-    const {colorList, x, y, rx, ry} = this.props
+    const { colorList, x, y, rx, ry } = this.props
 
     return (
       <Svg height="100%" width="100%">
@@ -18,8 +18,11 @@ class RadialGradient extends Component {
             ry={ry}
             gradientUnits="userSpaceOnUse"
           >
-            {colorList.map(value => <Stop offset={value.offset} stopColor={value.color}
-                                          stopOpacity={value.opacity}/>)}
+            {colorList.map((value, index) => <Stop
+              key={`RadialGradientItem_${index}`}
+              offset={value.offset}
+              stopColor={value.color}
+              stopOpacity={value.opacity}/>)}
           </SVGRadialGradient>
         </Defs>
         <Rect
