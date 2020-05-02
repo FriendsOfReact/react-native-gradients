@@ -1,6 +1,6 @@
 {
   "name": "react-native-gradients",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A simple gradient library for React Native.",
   "keywords": [
     "react-component",
@@ -19,14 +19,14 @@
   "author": "Berkay Yildiz",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": ">=0.50.0",
+    "react-native": ">=0.60.0",
     "react": "*",
-    "prop-types": "^15.5.7"
+    "prop-types": "^15.7.2"
   },
   "dependencies": {
-    "react-native-svg": "^6.5.2"
+    "react-native-svg": "^12.1.0"
   },
   "devDependencies": {
-    "standard": "^12.0.1"
+    "standard": "^14.3.3"
   }
 }
