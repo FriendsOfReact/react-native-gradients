@@ -3,20 +3,21 @@
 
 
 ## Installation
-First of all, install React Native Gradients using following commands.
+This library supports only React Native 0.60+ versions. First of all, install React Native Gradients using following commands.
 
 ```
 // via NPM
-npm install --save react-native-gradients
+npm install --save react-native-gradients react-native-svg
 
 // via Yarn
-yarn add react-native-gradients
+yarn add react-native-gradients react-native-svg
 ```
 
-It uses React Native SVG library, and because of this, link this library before run application.
+It uses React Native SVG library, install pod dependencies using following command..
 
 ```
-react-native link react-native-svg
+cd ios
+pod install
 ```
 
 ## Usage
