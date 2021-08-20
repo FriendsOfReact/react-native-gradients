@@ -1,29 +1,41 @@
-# React Native Gradients
+# 🎨React Native Gradients
+
+> A React Native alternative to Linear and Radial gradients, using SVG!
+
 ![React Native Gradients Demo 1](https://media.giphy.com/media/2aGD6js89xV3tGAIrd/giphy.gif) ![React Native Gradients Demo 2](https://media.giphy.com/media/xUJYCCeNdDATlcSDNo/giphy.gif) ![React Native Gradients Demo 3](https://media.giphy.com/media/1X5Z1goLOMY7cMUEuM/giphy.gif)
 
 
-## Installation
-This library supports only React Native 0.60+ versions. First of all, install React Native Gradients using following commands.
+## ⚙️Installation
 
-```
-// via NPM
+**Note**: This library supports only React Native 0.60+ versions
+
+Install `react-native-gradients` using your package manager
+
+- npm
+```sh
 npm install --save react-native-gradients react-native-svg
+```
 
-// via Yarn
+- yarn
+
+```sh
 yarn add react-native-gradients react-native-svg
 ```
 
-It uses React Native SVG library, install pod dependencies using following command..
+### iOS installation
 
-```
+As it uses [React Native SVG](https://github.com/react-native-svg/react-native-svg), you need to install the pod dependencies using following command
+
+```sh
 cd ios
 pod install
 ```
 
-## Usage
+## ✌️Usage
 
 ### Linear Gradient
-```
+
+```js
 const colorList = [
   {offset: '0%', color: '#231557', opacity: '1'},
   {offset: '29%', color: '#44107A', opacity: '1'},
@@ -32,12 +44,13 @@ const colorList = [
 ]
 ```
 
-```
+```jsx
 <LinearGradient colorList={colorList} angle={90}/>
 ```
 
 ### Radial Gradient
-```
+
+```js
 const colorList = [
   {offset: '0%', color: '#231557', opacity: '1'},
   {offset: '29%', color: '#44107A', opacity: '1'},
@@ -46,7 +59,7 @@ const colorList = [
 ]
 ```
 
-```
+```jsx
 <RadialGradient x="50%" y="50%" rx="50%" ry="50%" colorList={colorList}/>
 ```
 
