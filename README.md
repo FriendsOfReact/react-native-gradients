@@ -63,4 +63,30 @@ const colorList = [
 <RadialGradient x="50%" y="50%" rx="50%" ry="50%" colorList={colorList}/>
 ```
 
+### With Content
+
+This library uses `<svg />` components. An option for other formats of "images" is using the React Native component `<ImageBackground />` but for `svg`s that is not possible (at least for now).
+
+A good option is wrap your Gradient component into a `<View />` component and make that component has `position: absolute` style such as
+
+```jsx
+import { RadialGradient } from 'react-native-gradients';
+
+const BackgroundGradient = ({ style, children }) => (
+  <View style={[styles.gradientBg, style]}>
+    <RadialGradient />
+  </View>
+);
+
+const styles = StyleSheet.create({
+  gradientBg: {
+    position: absolute,
+    width: "100%",
+    height: "100%",
+  },
+});
+```
+
+For every case a specific solution could be used and this could work as a base to your case.
+
 [![SonarCloud](https://sonarcloud.io/api/project_badges/quality_gate?project=react-native-gradients)](https://sonarcloud.io/dashboard?id=react-native-gradients)
