@@ -1,4 +1,5 @@
 # 🎨React Native Gradients
+[![npm version](https://badge.fury.io/js/react-native-gradients.svg)](https://badge.fury.io/js/react-native-gradients)
 
 > A React Native alternative to Linear and Radial gradients, using SVG!
 
