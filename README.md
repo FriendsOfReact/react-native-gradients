@@ -88,6 +88,10 @@ const styles = StyleSheet.create({
 });
 ```
 
-For every case a specific solution could be used and this could work as a base to your case.
+### Development
+```sh
+# build
+yarn build
+```
 
 [![SonarCloud](https://sonarcloud.io/api/project_badges/quality_gate?project=react-native-gradients)](https://sonarcloud.io/dashboard?id=react-native-gradients)
