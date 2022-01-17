@@ -9,13 +9,13 @@ import { RadialGradientProps } from './types'
 import generateStopList from './utils/generateStopList'
 
 export default function RadialGradient({
-  colors,
+  colorList,
   x,
   y,
   rx,
   ry
 }: RadialGradientProps) {
-  const stopList = generateStopList(colors)
+  const stopList = generateStopList(colorList)
 
   return <Svg height="100%" width="100%">
     <Defs>

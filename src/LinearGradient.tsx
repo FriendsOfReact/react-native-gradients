@@ -9,10 +9,10 @@ import { LinearGradientProps } from './types'
 import getAnglePercentageObject from './utils/getAnglePercentageObject'
 import generateStopList from './utils/generateStopList'
 
-function LinearGradient({ angle, colors }: LinearGradientProps) {
+function LinearGradient({ angle, colorList }: LinearGradientProps) {
   const { x1, x2, y1, y2 } = useMemo(() => getAnglePercentageObject(angle), [angle])
 
-  const stopList = generateStopList(colors)
+  const stopList = generateStopList(colorList)
 
   return <Svg height="100%" width="100%">
     <Defs>

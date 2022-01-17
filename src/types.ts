@@ -9,12 +9,12 @@ export type ColorStops = {
 }[]
 
 export type LinearGradientProps = {
-  colors: ColorStops
+  colorList: ColorStops
   angle: number
 }
 
 export type RadialGradientProps = {
-  colors: ColorStops
+  colorList: ColorStops
   x: NumberProp
   y: NumberProp
   rx: NumberProp
