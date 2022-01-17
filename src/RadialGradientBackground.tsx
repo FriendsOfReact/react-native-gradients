@@ -5,7 +5,7 @@ import RadialGradient from './RadialGradient'
 import { RadialGradientBackgroundProps } from './types'
 
 function LinearGradientBackground({
-  colors,
+  colorList,
   x,
   y,
   rx,
@@ -16,7 +16,7 @@ function LinearGradientBackground({
   return <View {...props}>
     <View style={StyleSheet.absoluteFill}>
       <RadialGradient
-        colors={colors}
+        colorList={colorList}
         x={x}
         y={y}
         rx={rx}

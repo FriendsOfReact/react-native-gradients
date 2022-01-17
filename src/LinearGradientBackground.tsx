@@ -6,13 +6,13 @@ import { LinearGradientBackgroundProps } from './types'
 
 function LinearGradientBackground({
   angle,
-  colors,
+  colorList,
   children,
   ...props
 }: LinearGradientBackgroundProps) {
   return <View {...props}>
     <View style={StyleSheet.absoluteFill}>
-      <LinearGradient angle={angle} colors={colors}/>
+      <LinearGradient angle={angle} colorList={colorList}/>
     </View>
     {children}
   </View>
