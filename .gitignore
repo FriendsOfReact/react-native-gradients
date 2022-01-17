@@ -322,4 +322,7 @@ modules.xml
 
 package-lock.json
 
+# compiled
+lib
+
 # End of https://www.gitignore.io/api/reactnative,webstorm+all,visualstudiocode
