@@ -19,12 +19,12 @@
   "author": "Berkay Yildiz",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": ">=0.60.0",
+    "prop-types": "^15.7.2",
     "react": "*",
-    "prop-types": "^15.7.2"
+    "react-native": ">=0.60.0"
   },
   "dependencies": {
-    "react-native-svg": "^12.1.1"
+    "react-native-svg": ">=13.2.0"
   },
   "devDependencies": {
     "standard": "^14.3.4"
