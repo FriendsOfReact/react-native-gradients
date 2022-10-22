@@ -320,6 +320,7 @@ modules.xml
 .idea/misc.xml
 *.ipr
 
-package-lock.json
+# bob
+dist
 
 # End of https://www.gitignore.io/api/reactnative,webstorm+all,visualstudiocode
