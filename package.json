@@ -15,18 +15,28 @@
     "type": "git",
     "url": "https://github.com/FriendsOfReact/react-native-gradients"
   },
+  "types": "dist/typescript/index.d.ts",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/module/index.js",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "eslint --ext .ts,.tsx src",
+    "build": "bob build"
+  },
   "main": "./index.js",
   "author": "Berkay Yildiz",
   "license": "MIT",
   "peerDependencies": {
-    "prop-types": "^15.7.2",
     "react": "*",
-    "react-native": ">=0.60.0"
+    "react-native": "*"
   },
   "dependencies": {
     "react-native-svg": ">=13.2.0"
   },
   "devDependencies": {
-    "standard": "^14.3.4"
+    "@types/react": "~18.0.15",
+    "@types/react-native": "^0.70.0",
+    "react-native-builder-bob": "^0.20.0",
+    "typescript": "^4.8.4"
   }
 }
