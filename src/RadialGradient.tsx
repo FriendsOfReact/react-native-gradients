@@ -7,7 +7,7 @@ import Svg, {
 } from 'react-native-svg';
 import {Color} from './types';
 
-export const RadialGradient = ({ colorList, x, y, rx, ry }: {  colorList: Color[]; x: number; y: number; rx: number; ry: number}) => {
+export const RadialGradient = ({ colorList, x, y, rx, ry }: {  colorList: Color[]; x: string; y: string; rx: string; ry: string}) => {
   return (
     <Svg height="100%" width="100%">
       <Defs>
