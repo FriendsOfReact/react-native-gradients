@@ -12,12 +12,12 @@
 
 Install `react-native-gradients` using your package manager
 
-- npm
+### NPM
 ```sh
 npm install --save react-native-gradients react-native-svg
 ```
 
-- yarn
+### Yarn
 
 ```sh
 yarn add react-native-gradients react-native-svg
@@ -87,7 +87,3 @@ const styles = StyleSheet.create({
   },
 });
 ```
-
-For every case a specific solution could be used and this could work as a base to your case.
-
-[![SonarCloud](https://sonarcloud.io/api/project_badges/quality_gate?project=react-native-gradients)](https://sonarcloud.io/dashboard?id=react-native-gradients)
